@@ -1,0 +1,60 @@
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standalone Page</title>
+    
+
+    <!-- iOS-specific bits -->
+    <link rel="manifest" href="unlock-manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Standalone Page">
+    <link rel="apple-touch-icon" href="icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="icon-167x167.png">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        svg {
+            max-width: 50%;
+            max-height: 50%;
+            margin: 0;
+            padding: 0;
+            vertical-align: middle;
+            display: block;
+        }
+        .centered-text {
+            font-size: 5rem;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="centered-text">Unlock request</h1>
+
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="319.672" height="447.723" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="0 0 8458 11846"><defs class="ClipPathGroup"><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 0h21000v29700H0z"/></clipPath></defs><g class="SlideGroup"><g class="Slide" clip-path="url(#a)" transform="translate(-5292 -14192)"><g class="Page"><g class="com.sun.star.drawing.CustomShape"><path fill="none" d="M5292 18688h8458v7350H5292z" class="BoundingBox"/><path fill="#00a933" d="M6534 18715h1c-214 0-423 56-608 163s-338 260-445 445-163 394-163 608v4863c0 214 56 423 163 608s260 338 445 445 394 163 608 163h5971c214 0 423-56 608-163s338-260 445-445 163-394 163-608v-4864 1c0-214-56-423-163-608s-260-338-445-445-394-163-608-163z"/><path fill="none" stroke="#333" stroke-width="53" d="M6534 18715h1c-214 0-423 56-608 163s-338 260-445 445-163 394-163 608v4863c0 214 56 423 163 608s260 338 445 445 394 163 608 163h5971c214 0 423-56 608-163s338-260 445-445 163-394 163-608v-4864 1c0-214-56-423-163-608s-260-338-445-445-394-163-608-163z"/></g><g class="com.sun.star.drawing.CustomShape"><path fill="none" d="M6354 14192h6371v6289H6354z" class="BoundingBox"/><path fill="#00a933" d="m12723 17038-24-158-32-156-40-155-47-153-56-150-62-147-69-145-76-141-83-136-90-133-96-128-103-124-108-118-113-112-119-108-125-101-129-95-133-88-138-83-141-75-144-67-149-61-150-53-152-45-156-38-155-31-158-23-159-14-158-7-159 2-158 8-158 17-157 25-154 32-153 40-151 48-148 55-145 63-141 69-138 77-134 84-129 90-125 96-119 103-114 109-109 114-103 120-97 125-89 129-84 134-77 137-70 143-62 145-55 148-49 151-40 153-32 156-26 156-16 158-10 159-1 159 7 159 14 159 22 158 30 156 38 156 44 153 54 151 60 148 68 145 74 142 81 139 89 133 93 129 101 125 107 120 113 114 117 109 123 103 127 96 133 90 136 84 141 77 144 70 146 62 150 55 152 48 201-742-116-36-113-42-112-48-108-53-107-59-103-63-102-68-97-74-93-77-89-82-86-88-80-90-77-95-71-99-67-101-61-105-57-108-52-110-45-112-40-115-34-116-29-118-23-119-17-119-11-121-5-121 1-121 8-120 12-120 19-119 25-118 30-116 37-115 42-112 48-111 52-107 59-105 63-101 69-99 73-94 78-91 83-87 86-82 91-78 94-73 98-69 102-64 105-58 107-53 110-47 113-42 114-36 116-31 118-24 119-19 119-13 120-7 120-1 121 6 120 10 119 18 119 23 118 29 115 34 115 41 112 46 110 51 107 57 104 62 102 67 98 73 94 76 90 82 87 85 82 90 78 93 73 98 68 101 63 103 58 107 52 110 47 112 42 114 36 116 31 117 24 119 19 120z"/></g><g class="com.sun.star.drawing.CustomShape"><path fill="none" d="M8579 20761h1991v1991H8579z" class="BoundingBox"/><path fill="#fff" d="M10568 21756c0 174-46 346-133 497s-213 277-364 364-323 133-497 133-346-46-497-133-277-213-364-364-133-323-133-497 46-346 133-497 213-277 364-364 323-133 497-133 346 46 497 133 277 213 364 364 133 323 133 497"/><path fill="none" stroke="#3465a4" d="M10568 21756c0 174-46 346-133 497s-213 277-364 364-323 133-497 133-346-46-497-133-277-213-364-364-133-323-133-497 46-346 133-497 213-277 364-364 323-133 497-133 346 46 497 133 277 213 364 364 133 323 133 497z"/></g><g class="com.sun.star.drawing.CustomShape"><path fill="none" d="M9228 21927h704v2170h-704z" class="BoundingBox"/><path fill="#fff" d="M9424 21927c-34 0-68 9-98 26s-55 42-72 72-26 64-26 98v1777c0 34 9 68 26 98s42 55 72 72 64 26 98 26h310c34 0 68-9 98-26s55-42 72-72 26-64 26-98v-1777c0-34-9-68-26-98s-42-55-72-72-64-26-98-26z"/></g></g></g></g></svg>
+
+    <h1 class="centered-text">Sent</h1>
+</body>
+</html>
+
+
+

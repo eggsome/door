@@ -1,0 +1,20 @@
+{
+    "short_name": "Unock door",
+    "name": "Unlock front door",
+    "icons": [
+        {
+            "src": "unlock-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "unlock-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "door_unlock.cgi",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
