@@ -1,3 +1,6 @@
 opkg install kmod-sound-core
 opkg install kmod-usb-audio
 opkg install alsa-utils
+opkg install usbutils
+opkg install kmod-usb-serial-ch341
+opkg install apache apache-mod-ssl
