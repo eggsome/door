@@ -1,0 +1,2 @@
+  alsactl init
+  amixer set Mic 100% cap
